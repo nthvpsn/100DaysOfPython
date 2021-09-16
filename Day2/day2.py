@@ -1,4 +1,3 @@
-"""
 # TYPE IN PYTHON
 print(type("Amar"))
 print(type('c'))
@@ -21,4 +20,3 @@ tip = float(input("What percentage do you want to give the tip? "))
 no_of_people = int(input("How many people to split the bill? "))
 amount = (total*(1+tip/100)/no_of_people)
 print("Each person should pay $", round(amount, 2))
-"""
